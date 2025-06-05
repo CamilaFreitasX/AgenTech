@@ -1,21 +1,15 @@
-# No início do arquivo, substitua:
 import streamlit as st
 import pandas as pd
 import zipfile
 import os
 import tempfile
 from io import StringIO
-
-# Tente este import alternativo:
-try:
-    from langchain_experimental.agents import create_csv_agent
-except ImportError:
-    from langchain.agents import create_csv_agent
-
+from langchain_experimental.agents import create_csv_agent
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents.agent_types import AgentType
 from utils_google import NotaFiscalValidator, extract_zip_file
 import warnings
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
