@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 Agente de Análise de Notas Fiscais - Google Gemini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <h1 class="header__title">🤖 Agente de Análise de Notas Fiscais</h1>
+                <p class="header__subtitle">Google Gemini API - Demonstração Interativa</p>
+            </div>
+            <nav class="nav">
+                <button class="nav__btn nav__btn--active" data-section="home">🏠 Início</button>
+                <button class="nav__btn" data-section="upload">📁 Upload</button>
+                <button class="nav__btn" data-section="consultas">💬 Consultas</button>
+                <button class="nav__btn" data-section="config">⚙️ Configuração</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main container">
+        <!-- Home Section -->
+        <section id="home" class="section section--active">
+            <div class="hero">
+                <h2 class="hero__title">Bem-vindo ao Sistema de Análise Inteligente</h2>
+                <p class="hero__description">
+                    Esta demonstração simula um agente inteligente que utiliza a API do Google Gemini 
+                    para analisar notas fiscais em linguagem natural. Explore as funcionalidades abaixo.
+                </p>
+                
+                <div class="features-grid">
+                    <div class="feature-card card">
+                        <div class="card__body">
+                            <h3>🔄 Processamento Automático</h3>
+                            <p>Upload de arquivos ZIP com extração automática de dados de notas fiscais</p>
+                        </div>
+                    </div>
+                    <div class="feature-card card">
+                        <div class="card__body">
+                            <h3>🤖 IA Conversacional</h3>
+                            <p>Consultas em linguagem natural usando Google Gemini API</p>
+                        </div>
+                    </div>
+                    <div class="feature-card card">
+                        <div class="card__body">
+                            <h3>📊 Análise Inteligente</h3>
+                            <p>Respostas detalhadas sobre fornecedores, produtos e valores</p>
+                        </div>
+                    </div>
+                    <div class="feature-card card">
+                        <div class="card__body">
+                            <h3>⚡ Processamento Rápido</h3>
+                            <p>1.5 bilhão de tokens gratuitos por dia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">100</div>
+                        <div class="stat-label">Notas Processadas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10</div>
+                        <div class="stat-label">Fornecedores</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">387</div>
+                        <div class="stat-label">Itens Únicos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">R$ 249.847,50</div>
+                        <div class="stat-label">Valor Total</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upload Section -->
+        <section id="upload" class="section">
+            <h2 class="section__title">📁 Upload de Arquivos</h2>
+            
+            <div class="upload-area card">
+                <div class="card__body">
+                    <div class="upload-zone" id="uploadZone">
+                        <div class="upload-zone__content">
+                            <div class="upload-icon">📁</div>
+                            <h3>Arraste arquivos ZIP aqui</h3>
+                            <p>ou clique para selecionar arquivos</p>
+                            <input type="file" id="fileInput" accept=".zip" class="hidden">
+                        </div>
+                    </div>
+                    
+                    <div class="upload-actions">
+                        <button class="btn btn--primary" onclick="simulateUpload()">Simular Upload</button>
+                        <button class="btn btn--secondary" onclick="clearUpload()">Limpar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="uploadResults" class="upload-results hidden">
+                <div class="card">
+                    <div class="card__body">
+                        <h3>📊 Dados Carregados</h3>
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <p class="progress-text" id="progressText">Processando...</p>
+                    </div>
+                </div>
+
+                <div class="card mt-8">
+                    <div class="card__body">
+                        <h4>📋 Exemplo de Notas Fiscais Processadas</h4>
+                        <div class="table-container">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Número</th>
+                                        <th>Data</th>
+                                        <th>Fornecedor</th>
+                                        <th>Valor Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="dataTableBody">
+                                    <!-- Data will be populated by JavaScript -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consultas Section -->
+        <section id="consultas" class="section">
+            <h2 class="section__title">💬 Consultas Inteligentes</h2>
+            
+            <div class="query-area card">
+                <div class="card__body">
+                    <div class="form-group">
+                        <label class="form-label" for="queryInput">Faça sua pergunta:</label>
+                        <textarea 
+                            id="queryInput" 
+                            class="form-control" 
+                            rows="3" 
+                            placeholder="Digite sua pergunta sobre as notas fiscais..."
+                        ></textarea>
+                    </div>
+                    <div class="query-actions">
+                        <button class="btn btn--primary" onclick="submitQuery()">🚀 Perguntar</button>
+                        <button class="btn btn--secondary" onclick="clearQuery()">🗑️ Limpar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="example-queries card">
+                <div class="card__body">
+                    <h3>💡 Perguntas de Exemplo</h3>
+                    <div class="example-buttons">
+                        <button class="btn btn--outline btn--sm" onclick="useExampleQuery(0)">
+                            Qual fornecedor teve maior montante?
+                        </button>
+                        <button class="btn btn--outline btn--sm" onclick="useExampleQuery(1)">
+                            Qual item teve maior volume?
+                        </button>
+                        <button class="btn btn--outline btn--sm" onclick="useExampleQuery(2)">
+                            Quantas notas foram emitidas?
+                        </button>
+                        <button class="btn btn--outline btn--sm" onclick="useExampleQuery(3)">
+                            Qual a soma total dos valores?
+                        </button>
+                        <button class="btn btn--outline btn--sm" onclick="useExampleQuery(4)">
+                            Top 5 fornecedores por valor
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="queryHistory" class="query-history">
+                <!-- Query results will be populated here -->
+            </div>
+        </section>
+
+        <!-- Config Section -->
+        <section id="config" class="section">
+            <h2 class="section__title">⚙️ Configuração</h2>
+            
+            <div class="config-grid">
+                <div class="card">
+                    <div class="card__body">
+                        <h3>🔑 API Configuration</h3>
+                        <div class="form-group">
+                            <label class="form-label" for="apiKey">Google Gemini API Key:</label>
+                            <input 
+                                type="password" 
+                                id="apiKey" 
+                                class="form-control" 
+                                placeholder="Insira sua API key aqui..."
+                                value="demo_key_for_simulation"
+                                readonly
+                            >
+                            <small class="form-text">Esta é uma demonstração - a API key é apenas visual</small>
+                        </div>
+                        <button class="btn btn--primary" onclick="showApiInfo()">ℹ️ Informações da API</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__body">
+                        <h3>📊 Sobre o Google Gemini</h3>
+                        <ul class="feature-list">
+                            <li>✅ 1.5 bilhão de tokens gratuitos por dia</li>
+                            <li>✅ Processamento de linguagem natural avançado</li>
+                            <li>✅ Integração fácil com Python</li>
+                            <li>✅ Suporte a múltiplos formatos</li>
+                            <li>✅ Respostas contextuais inteligentes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__body">
+                        <h3>🔗 Links Úteis</h3>
+                        <div class="links-grid">
+                            <a href="https://ai.google.dev/" target="_blank" class="link-item">
+                                📚 Documentação Oficial
+                            </a>
+                            <a href="https://makersuite.google.com/" target="_blank" class="link-item">
+                                🛠️ Google AI Studio
+                            </a>
+                            <a href="https://github.com/google/generative-ai-python" target="_blank" class="link-item">
+                                💻 Python SDK
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden">
+        <div class="modal__backdrop" onclick="closeModal()"></div>
+        <div class="modal__content">
+            <div class="modal__header">
+                <h3 id="modalTitle">Informações</h3>
+                <button class="modal__close" onclick="closeModal()">✕</button>
+            </div>
+            <div class="modal__body" id="modalBody">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+            <div class="modal__footer">
+                <button class="btn btn--secondary" onclick="closeModal()">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay -->
+    <div id="loadingOverlay" class="loading-overlay hidden">
+        <div class="loading-spinner"></div>
+        <p>Processando consulta...</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
