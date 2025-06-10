@@ -1,0 +1,1371 @@
+services:
+  - type: web
+    name: agentech-app
+    env: python
+    buildCommand: pip install -r requirements_openai.txt
+    startCommand: streamlit run main_openai.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run main_google.py --server.port $PORT --server.address 0.0.0.0
