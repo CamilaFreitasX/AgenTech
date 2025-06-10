@@ -33,5 +33,4 @@ Uma aplicação avançada que permite fazer consultas em linguagem natural sobre
 
 ```bash
 # Execute o script de instalação
-python install_openai.py
-```
+python install_google.py
